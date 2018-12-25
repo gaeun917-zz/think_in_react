@@ -5,13 +5,12 @@ import ProductRow from './ProductRow'
 class ProductTable extends React.Component {
     render() {
         const category = this.props.category;
-        const name = this.props.name;
-        const price = this.props.price;
+        const product = this.props.product;
 
         return (
             <div>
                 <ProductCategory category={category}/>
-                <ProductRow name={name} price={price}/>
+                <ProductRow product={product}/>
             </div>
         );
     }

@@ -2,8 +2,11 @@ import React from 'react';
 
 class ProductTable extends React.Component {
     render() {
-        const name = this.props.name;
-        const price = this.props.price;
+        const price = this.props.product.price;
+        const stocked = this.props.product.stocked;
+
+        let name = stocked ? this.props.product.name :
+            <span style={{color: 'red'}}>{this.props.product.name}</span>
 
         return (
             <div className='category_title'>
