@@ -6,11 +6,9 @@ class ProductTable extends React.Component {
         const price = this.props.price;
 
         return (
-            <div>
-                <div className='category_title'>
-                    <div>{name}</div>
-                    <div>{price}</div>
-                </div>
+            <div className='category_title'>
+                <div className='category_title_name'>{name}</div>
+                <div className='category_title_price'>{price}</div>
             </div>
         );
     }

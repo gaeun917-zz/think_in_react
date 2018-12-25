@@ -1,11 +1,9 @@
 import React, {Component} from 'react';
 import './App.css';
-import FilterableProductTable from './Product/FilterableProductTable'
+import FilterableProductTable from './Product/FilterableProduct'
 class App extends Component {
     render() {
-        return (
-            <FilterableProductTable/>
-        );
+        return <FilterableProductTable/>;
     }
 }
 

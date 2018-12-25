@@ -32,9 +32,13 @@
 .category_title_price{
   margin-left: 20px;
 }
+.category_title_name{
+  width: 150px;
+}
 
-
-
+.category_title_main{
+  background-color: tomato;
+}
 
 
 
