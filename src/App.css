@@ -22,6 +22,22 @@
   color: #61dafb;
 }
 
+.searchbar_checkbox{
+  display: flex;
+}
+.category_title{
+  display: flex;
+  flex-direction: row;
+}
+.category_title_price{
+  margin-left: 20px;
+}
+
+
+
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
